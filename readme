@@ -1,0 +1,16 @@
+Recursos de JavaScript utilizados:
+
+fetch : Se utiliza para realizar solicitudes HTTP GET a recursos externos y obtener datos.
+Promesas : Se utilizan las promesas con .then()para manejar las respuestas de las solicitudes fetch.
+HTML DOM : Se utiliza para acceder y manipular elementos HTML en la página.
+Funciones de flecha : Se utilizan para definir funciones anónimas de una sola línea de manera concisa.
+Plantillas de cadena de texto : Se utilizan para generar HTML dinámico de manera más legible.
+Eventos de clic : Se utiliza el evento onclicken el botón "Ver Detalles" para llamar a la función 
+viewDigimonDetailcuando se hace clic.
+
+Alternativas:
+
+En lugar de usar innerHTML para agregar contenido HTML, se podría considerar la creación y manipulación de elementos DOM de manera más eficiente.
+En lugar de cargar los detalles de un Digimon en una página separada, se podría implementar una vista emergente o un modal para mostrar los detalles sin cambiar completamente la página.
+Se podría utilizar un marco de trabajo JavaScript como React o Vue.js para crear componentes reutilizables y facilitar el manejo del estado de la aplicación.
+En términos de diseño y estilo, se podrían aplicar hojas de estilo CSS para mejorar la apariencia de la aplicación.
