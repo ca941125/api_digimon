@@ -1,0 +1,68 @@
+h1{
+  color: rgb(132, 0, 255);
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  margin: 10px auto;
+}
+
+.dgmn-card {
+  width: 200px;
+  height: 300px;
+  border: 3px solid rgb(132, 0, 255);
+  border-radius: 15px;
+  padding: 20px;
+  margin-block: 30px;
+}
+
+.dgmn-card img {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.dgmn-card h2 {
+  text-align: center;
+}
+
+.dgmn-card button {
+  background-color: rgb(132, 0, 255);
+  padding: 10px ;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-detail {
+  display: flex;
+
+  gap: 50px;
+  padding: 20px;
+  border: 2px solid rgb(132, 0, 255);
+  border-radius: 15px;
+}
+
+.card-detail img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+ button{
+  background-color: rgb(132, 0, 255);
+  padding: 10px ;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+  margin: 0 auto;
+ }
+.pagination{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
