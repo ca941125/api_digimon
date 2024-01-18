@@ -1,3 +1,10 @@
+/* Color Theme Swatches in Hex 
+.Digimon-Series-1-hex { color: #BF2A37; }
+.Digimon-Series-2-hex { color: #55C1D9; }
+.Digimon-Series-3-hex { color: #BAD94A; }
+.Digimon-Series-4-hex { color: #F2C230; }
+.Digimon-Series-5-hex { color: #D97B29; }
+*/
 h1{
   color: rgb(132, 0, 255);
   text-align: center;
@@ -6,7 +13,7 @@ h1{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 70%;
+  width: 95%;
   margin: 10px auto;
 }
 
@@ -41,7 +48,6 @@ h1{
 
 .card-detail {
   display: flex;
-
   gap: 50px;
   padding: 20px;
   border: 2px solid rgb(132, 0, 255);
@@ -53,14 +59,14 @@ h1{
   height: auto;
   object-fit: contain;
 }
- button{
+button{
   background-color: rgb(132, 0, 255);
   padding: 10px ;
   border-radius: 10px;
   border: 2px solid white;
   color: white;
   margin: 0 auto;
- }
+}
 .pagination{
   display: flex;
   flex-direction: row;
