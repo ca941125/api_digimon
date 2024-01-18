@@ -10,7 +10,7 @@ obtenerInfoCards();
 const renderDigimonCards = (cardsData) => { 
   let digimonArray = cardsData.content;
   container.innerHTML = "";
-  digimonArray.forEach((digimon) => {  
+  digimonArray.forEach((digimon) => {
     container.innerHTML += `
       <div class="dgmn-card">
         <img src="${digimon.image}" alt="">
@@ -23,8 +23,7 @@ const renderDigimonCards = (cardsData) => {
 
 const viewDigimonDetail = (digimonUrl) => {
   fetch(digimonUrl)
-  fetch(digimonUrl)
-    .then((res) => res.json()) 
+    .then((res) => res.json())
     .then((data) => {
       const renderDescription = () => {
         let englishDescription = "";
@@ -35,15 +34,15 @@ const viewDigimonDetail = (digimonUrl) => {
         });
         return englishDescription;
       };
-      container.innerHTML = ""; 
+      container.innerHTML = "";
       container.innerHTML = `
-       <div class="card-detail">
-        <img src=${data.images[0].href} alt="">
-        <div class="card-detail__description">
-        <h1>${data.name}</h1>
-        <p>${renderDescription()}</p>
-        <button onclick="obtenerInfoCards()">Regresar</button>
-      </div>
+        <div class="card-detail">
+          <img src=${data.images[0].href} alt="">
+          <div class="card-detail__description">
+            <h1>${data.name}</h1>
+            <p>${renderDescription()}</p>
+            <button onclick="obtenerInfoCards()">Regresar</button>
+          </div>
         </div>`;
     });
 };
